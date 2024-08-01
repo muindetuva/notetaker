@@ -1,0 +1,58 @@
+h1 {
+  text-align: center;
+}
+
+section {
+  display: flex;
+}
+
+section > div {
+  flex: 1;
+  margin: 30px;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+}
+
+textarea {
+  padding: 8px;
+  height: 150px;
+}
+
+label {
+  margin: 10px 0;
+}
+
+input {
+  width: 100%;
+  margin: 10px auto;
+  padding: 3px;
+  color: white;
+  background-color: black;
+}
+
+.note-card {
+  padding: 8px;
+  background-color: black;
+  color: white;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.note-card p {
+  margin: 0;
+  margin-right: 10px;
+}
+
+button {
+  margin-left: auto;
+  background: red;
+  color: white;
+  height: 30px;
+  border-radius: 6px;
+  cursor: pointer;
+}
